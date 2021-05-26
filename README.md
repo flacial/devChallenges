@@ -1,2 +1,0 @@
-# devChallenges
-My devChallenges submissions.
