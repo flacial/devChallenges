@@ -7,4 +7,4 @@ My devChallenges submissions.
 1. [404 Not Found](./404-not-found)
 2. [My Team Page](./my-team-page)
 3. [Interior Consultant](./interior-consultant)
-4. [Recipe Blog](./dc-recipe-blog)
+4. [Recipe Blog](./dc-recipe-page)
