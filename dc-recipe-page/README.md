@@ -70,4 +70,4 @@ $ npm start
 ## Contact
 
 - GitHub [@flacial](https://github.com/flacial)
-- Twitter [@HandsomeFlacial](https://twitter.com/HandsomeFlacial)
+- Twitter [@flacial](https://twitter.com/flacial)

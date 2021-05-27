@@ -55,4 +55,4 @@ This application/site was created as a submission to a [DevChallenges](https://d
 ## Contact
 
 - GitHub [@flacial](https://github.com/flacial)
-- Twitter [@HandsomeFlacial](https://twitter.com/HandsomeFlacial)
+- Twitter [@flacial](https://twitter.com/flacial)
