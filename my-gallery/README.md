@@ -34,7 +34,7 @@
 
 ## Overview
 
-![screenshot](./assets/my-gallery-ss.png)
+![screenshot](./assets/my-gallery-ss.webp)
 
 
 - What have you learned/improved?
