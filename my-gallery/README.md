@@ -34,9 +34,7 @@
 
 ## Overview
 
-<div align="center">
-  ![screenshot](./assets/my-gallery-ss.png)
-</div>
+![screenshot](./assets/my-gallery-ss.png)
 
 
 - What have you learned/improved?
