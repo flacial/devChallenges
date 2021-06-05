@@ -84,6 +84,11 @@ li:hover {
   flex-direction: column;
 }
 
+.main-wrapper {
+  display: grid;
+  place-items: center;
+}
+
 .header__items__container {
   display: flex;
   align-items: center;
