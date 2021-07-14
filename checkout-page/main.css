@@ -189,7 +189,7 @@ hr {
     text-overflow: ellipsis;
 }
 
-.input-field input:focus {
+.input-field input:focus, select:focus {
     box-shadow: 0 0 0 3px rgb(185, 185, 255);
     outline: none;
 }
