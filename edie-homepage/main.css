@@ -23,6 +23,7 @@
     --color-gray7: #4f4f4f;
     --color-gray8: #e0e0e0;
     --color-gray6: #f2f2f2;
+    --color-main: #2D9CDB;
     --fonts-monst: "Montserrat", sans-serif;
     --fonts-poppins: "Poppins", sans-serif;
 }
@@ -134,7 +135,7 @@ li:hover {
 }
 
 .home__heading__question {
-    color: #2D9CDB;
+    color: var(--color-main);
     font-size: var(--size-12);
     font-weight: 500;
 }
@@ -207,11 +208,12 @@ content {
     border: 2px solid transparent;
     padding-right: 75px;
     font-size: 12px;
+    transition: box-shadow 0.3s ease;
 }
 
 .contact--email:focus {
-    border: 2px solid #6bc1f2;
     outline: none;
+    box-shadow: 0 0 0px 2.5px var(--color-main);
 }
 
 .contact--email::placeholder {
