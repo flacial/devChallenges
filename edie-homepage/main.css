@@ -153,9 +153,10 @@ section {
 }
 
 content {
-  justify-content: center;
   display: flex;
+  justify-content: center;
   flex-direction: column;
+  align-items: center;
 }
 
 .home {
@@ -252,10 +253,12 @@ content {
   font-family: var(--fonts-poppins);
 }
 
-.services__heading h1 {
+.services__heading h1,
+.section-heading {
   color: var(--color-gray5);
   font-weight: 500;
   margin-bottom: 92px;
+  font-family: var(--fonts-poppins);
 }
 
 .services__cards {
@@ -324,4 +327,169 @@ content {
 .enabled:hover {
   background-color: #257fb3 !important;
   cursor: pointer;
+}
+
+.our-work {
+  margin-bottom: 100px;
+}
+
+.our-works h1 {
+  margin-bottom: var(--size-48);
+}
+
+.our-works__showcase {
+  display: grid;
+  font-family: var(--fonts-poppins);
+  row-gap: 50px;
+  margin-bottom: 100px;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+}
+
+.work__image__container {
+  border-radius: 24px;
+  overflow: hidden;
+}
+
+.work__image__container img {
+  transform: scale(1.16);
+  max-width: 351px;
+  width: 100%;
+}
+
+.work__info {
+  margin-top: 10px;
+}
+
+.work__info__type {
+  color: var(--color-gray9);
+  font-size: var(--size-12);
+  margin-bottom: 5px;
+  line-height: 18px;
+  font-weight: 300;
+}
+
+.work__info__title {
+  font-weight: 500;
+  color: var(--color-gray5);
+  font-size: var(--size-18);
+}
+
+.work__see-more {
+  display: flex;
+  align-items: center;
+  column-gap: 12px;
+  color: var(--color-main);
+  fill: var(--color-main);
+}
+
+.work__see-more span {
+  font-size: var(--size-18);
+  font-weight: 500;
+}
+
+.clients {
+  display: flex;
+  flex-direction: column;
+  font-family: var(--fonts-poppins);
+  padding-bottom: 100px;
+}
+
+.clients__heading {
+  display: grid;
+  row-gap: 14px;
+  margin-bottom: 36px;
+  align-self: flex-start;
+}
+
+.clients__heading span {
+  font-size: var(--size-18);
+  font-weight: 500;
+  color: #eb5757;
+}
+
+.clients__heading h1 {
+  color: var(--color-gray5);
+  font-weight: 500;
+  font-size: 36px;
+  max-width: 20rem;
+}
+
+.clients__heading p {
+  color: var(--color-gray7);
+  font-weight: 400;
+}
+
+.clients__showcase {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  column-gap: 10px;
+  justify-items: end;
+  margin-bottom: 100px;
+}
+
+.clients__showcase img {
+  border-radius: var(--size-24);
+}
+
+.clients__showcase div {
+  display: flex;
+  flex-direction: column;
+}
+
+.person3 {
+  max-width: 178px;
+  align-self: center;
+}
+
+.person1 {
+  margin-bottom: 20px;
+  max-width: 144px;
+}
+
+.person2 {
+  max-width: 172px;
+}
+
+.clients__quote {
+    margin-bottom: 24px;
+}
+
+.quote {
+    font-size: var(--size-24);
+    color: var(--color-gray5);
+    font-weight: 500;
+}
+
+.clients__CEO {
+    display: flex;
+    column-gap: 30px;
+    align-self: flex-start;
+    align-items: center;
+}
+
+.clients__CEO img {
+    width: 100%;
+    max-width: 82px;
+    border-radius: 12px;
+}
+
+.clients__CEO__info {
+    display: flex;
+    flex-direction: column;
+}
+
+.clients__CEO__info__name {
+    font-size: var(--size-24);
+    font-weight: 500;
+    color: #333333;
+}
+
+.clients__CEO__info__job {
+    font-size: var(--size-18);
+    font-weight: 500;
+    color: var(--color-gray9);
 }
