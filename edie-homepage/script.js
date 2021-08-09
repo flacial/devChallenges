@@ -11,7 +11,7 @@ navLinks.forEach((link) => {
   link.addEventListener("click", () => {
     burger.classList.remove("burgerContainer");
     burgerIconClose.classList.remove("burgerSvgLight");
-    navContainer.classList.togremovegle("turnDark");
+    navContainer.classList.remove("turnDark");
     body.classList.remove("hideOverflow");
     wrapper.classList.remove("hideOverflow");
     menuNav.classList.remove("changeMenuNav");

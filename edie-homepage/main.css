@@ -711,9 +711,8 @@ q:after {
   }
 
   .menu__nav li:hover a {
-    background: -webkit-linear-gradient(#008f75, #2600ff);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: #b75c5c00;
+    text-shadow: 19px 19px 3px #007bff;
+    color: transparent;
   }
 
   .wrapper {
@@ -898,6 +897,39 @@ q:after {
 
   .contact--email {
     padding-right: 110px;
+  }
+}
+
+@media only screen and (min-width: 890px) and (max-width: 930px) {
+  .services__cards__card__backend {
+    grid-column: 1/3;
+  }
+}
+
+@media only screen and (min-width:890px) and (max-width: 995px) {
+  .clients__heading__showcase__container {
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .clients__showcase {
+    grid-template-columns: 1fr;
+    justify-items: center;
+  }
+
+  .clients__showcase div {
+    align-items: center;
+  }
+
+  .person2 {
+    order: 1;
+    margin-top: 10px;
+  }
+
+  .person1 {
+    margin-top: 10px;
+    order: 2;
   }
 }
 
