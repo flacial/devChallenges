@@ -12,7 +12,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://devchallenges.io/solutions/Tl1FRVtCwRuA9I3r7k00">
       Solution
     </a>
     <span> | </span>
