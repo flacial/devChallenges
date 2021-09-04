@@ -8,7 +8,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://flacial.github.io/my-team-page">
+    <a href="https://flacial.github.io/devChallenges/my-team-page">
       Demo
     </a>
     <span> | </span>
